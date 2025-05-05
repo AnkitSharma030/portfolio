@@ -1,36 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";import { useEffect, useState } from "react";
-
-/*const Navbar = () => {
-  const [dark, setDark] = useState(() => localStorage.theme === "dark");
-
-  useEffect(() => {
-    if (dark) {
-      document.documentElement.classList.add("dark");
-      localStorage.setItem("theme", "dark");
-    } else {
-      document.documentElement.classList.remove("dark");
-      localStorage.setItem("theme", "light");
-    }
-  }, [dark]);
-
-  return (
-    <nav className="w-full bg-background dark:bg-gray-900 text-white fixed top-0 z-50 shadow-md">
-      <div className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-        <h1 className="text-primary text-2xl font-bold">Ankit.dev</h1>
-        <div className="flex gap-6 items-center">
-          
-          <button
-            onClick={() => setDark(!dark)}
-            className="text-sm text-accent border border-accent px-2 py-1 rounded"
-          >
-            {dark ? "☀️ Light" : "🌙 Dark"}
-          </button>
-        </div>
-      </div>
-    </nav>
-  );
-*/
+import { Link } from "react-router-dom";
 
 
 const Navbar = () => {
